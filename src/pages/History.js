@@ -46,7 +46,7 @@ const History = () => {
                   </td>
                   <td className="px-4 py-2 border border-gray-300">
                     <button
-                      onClick={() => handleDelete(item.data.id)} // Panggil handleDelete dengan ID item
+                      onClick={() => handleDelete(item.data.id)} 
                       className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
                     >
                       Delete

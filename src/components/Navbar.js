@@ -13,10 +13,10 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-indigo-900 via-indigo-600 to-indigo-400 shadow-lg p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo dan Judul */}
+        {}
         <div className="flex items-center space-x-3">
           <img
-            src="https://image.freepik.com/free-vector/pets-shop-logo-with-dog-cat-parrot-illustration_162786-75.jpg" // Ganti dengan URL logo atau path lokal
+            src="https://image.freepik.com/free-vector/pets-shop-logo-with-dog-cat-parrot-illustration_162786-75.jpg" 
             alt="Logo"
             className="w-10 h-10 object-contain"
           />
@@ -25,7 +25,7 @@ const Navbar = () => {
           </h1>
         </div>
 
-        {/* Navigasi Link */}
+       
         <div className="flex items-center space-x-8">
           <Link
             to="/Home"
