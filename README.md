@@ -1,3 +1,40 @@
+# Petshop Website
+
+## Deskripsi Proyek
+Website Petshop ini dibuat untuk memudahkan pelanggan dalam berbelanja kebutuhan hewan peliharaan secara online. Website ini memiliki beberapa fitur utama, yaitu login user, pengelolaan produk, pembelian produk, serta pencatatan riwayat pembelian.
+
+## Fitur Utama
+
+1. **Halaman Login**
+   - Pengguna dapat login ke dalam sistem dengan menggunakan akun terdaftar.
+   - Validasi akun dilakukan untuk memastikan keamanan.
+
+2. **Halaman Home**
+   - Menampilkan deskripsi singkat mengenai petshop
+3. **Halaman Products**
+   - Menampilkan daftar produk yang tersedia untuk dijual.
+   - Fitur CRUD (Create, Read, Update, Delete) untuk pengelolaan produk oleh admin:
+     - **Tambah Produk:** Admin dapat menambahkan produk baru ke dalam daftar.
+     - **Edit Produk:** Admin dapat mengedit informasi produk yang sudah ada.
+     - **Hapus Produk:** Admin dapat menghapus produk yang tidak lagi dijual.
+
+4. **Halaman Purchases**
+   - Menampilkan daftar produk yang tersedia untuk pembelian.
+   - Pengguna dapat memilih produk dan melakukan pembelian.
+
+5. **Halaman History**
+   - Menampilkan riwayat pembelian pengguna.
+   - Riwayat mencakup detail produk yang dibeli
+
+## Teknologi yang Digunakan
+- **Frontend:** React.js, Redux
+- **Backend:** Express.js
+- **Database:** PostgreSQL
+- **Styling:** Tailwind
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
